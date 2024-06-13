@@ -9,6 +9,9 @@ import FireBase from "../assets/firebase.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
+import Sequelize from "../assets/sequelize.png";
+import Docker from "../assets/docker.png";
+import NextJs from "../assets/nextjs.png";
 
 const Skills = () => {
   return (
@@ -17,11 +20,14 @@ const Skills = () => {
       className='w-full md:h-1 min-h-screen bg-[#0a192f] text-gray-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div className='mt-20'>
+        <div className='mt-24'>
           <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>
             Skills
           </p>
-          <p className='py-4'>// These are the technologies I've worked with</p>
+          {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
+          <p className='py-4'>
+            // Voici les technologies avec lesquelles j'ai travaillé
+          </p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
@@ -60,6 +66,18 @@ const Skills = () => {
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src={FireBase} alt='HTML icon' />
             <p className='my-4'>FIREBASE</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Sequelize} alt='HTML icon' />
+            <p className='my-4'>SEQUELIZE</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={Docker} alt='HTML icon' />
+            <p className='my-4'>DOCKER</p>
+          </div>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='w-20 mx-auto' src={NextJs} alt='HTML icon' />
+            <p className='my-4'>NEXTJS</p>
           </div>
         </div>
       </div>
