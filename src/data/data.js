@@ -1,35 +1,19 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import Shop from "../assets/shop.png";
+import MusicApp from "../assets/musicApp.png";
 
-export const data=[
-    {
-        id:1,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:2,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-    {
-        id:3,
-        name:"React JS Application",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
-    {
-        id:4,
-        name:"React JS Application",
-        image:RealEst,
-        github:"",
-        live:"",
-    },
-
-
-]
+export const data = [
+  {
+    id: 1,
+    name: "React Ecommerce Fullstack Application",
+    image: Shop,
+    github: "https://github.com/RayaneDjr/shop",
+    live: "",
+  },
+  {
+    id: 2,
+    name: "React Music Application",
+    image: MusicApp,
+    github: "https://github.com/RayaneDjr/music-app",
+    live: "",
+  },
+];
